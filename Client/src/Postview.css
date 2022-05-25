@@ -1,0 +1,102 @@
+html {
+  font-size: 14px;
+} 
+body {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}  
+
+.header{
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid crimson;
+  margin-bottom: 2%;
+}
+
+.icon i{
+  margin-top: 5px;
+  font-size:50px;
+  text-decoration: none;
+  color: crimson;
+}
+
+.header a{
+  font-family:'Billabong',sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  margin-top: 1%;
+  text-decoration: none;
+  color: black;                                             
+}
+
+.card{
+  width: 33.13vw;
+  border: 1px solid rgb(213, 213, 213);
+  border-radius: 5px;
+  margin-left: 33%;
+  margin-bottom:2%;
+}
+
+.head-tag{
+  display: flex;
+  justify-content: space-between;
+}
+
+.head p{
+  margin:0;
+  width: 0;
+  
+}
+
+.head p:first-child{
+  margin-left:10px;
+  margin-top: 5px;
+  font-family:monospace;
+}
+
+.head p:last-child{
+  margin-left:10px;
+  margin-bottom: 5px; 
+  color: grey;
+  font-size: 13px;
+  width: 5vw;
+}
+
+.icon{
+  margin-right: 10px;
+  margin-top: 5px;
+}
+.icon:hover{
+  cursor: pointer;
+}
+
+.sub-bottom img{
+  width: 20px;
+  margin: 7px;
+}
+
+.likes{
+  margin-left: 8px;
+  font-size: small;
+  color: grey;
+}
+
+.description{
+  margin:15px 8px;
+  font-size:medium;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.content-image{
+  width:100%;
+  height:10%;
+}
+
+.current-date{
+  margin:5px;
+  color:rgb(100, 97, 97);
+  float:right;
+  font-weight: 100;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

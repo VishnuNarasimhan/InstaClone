@@ -1,0 +1,54 @@
+.body{
+    display: flex;
+    justify-content: center;
+    margin-bottom:10px;
+}
+
+.Post{
+    margin-top: 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+    border-color: grey;
+    width : 30vw;
+    height: 25vh;
+}
+
+#image-upload{
+    margin-left: 35px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    width: 25vw;
+    border: 1px solid grey;
+    border-radius: 5px;
+    border-color: grey; 
+    cursor: pointer;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    margin-left:7.5%;
+    margin-right: 8.5%;
+    border-color: grey;
+    border-radius: 5px;
+}
+
+.description-content{
+    margin-top: 20px;
+    margin-left:8%;
+    width: 24.5vw;
+}
+
+.post{
+    margin-left: 12.5vw;
+    margin-top: 15px;
+    color:rgb(255, 255, 255);
+    font-weight: 600;
+    background-color: rgb(216, 68, 98);
+}
+
+.post:hover{
+    cursor: pointer;
+    color: black;
+    background-color: rgb(251, 251, 251);
+}

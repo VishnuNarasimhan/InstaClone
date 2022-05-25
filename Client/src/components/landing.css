@@ -1,0 +1,31 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 50px;
+  }
+
+  .landing-h1 {
+    color: crimson;
+    font-family:'Billabong',sans-serif;
+    font-size: 25px;
+    margin-bottom: 0px;
+  }
+  
+  .button{
+      margin-left: 15%;
+      margin-top: 5px;
+  }
+  
+  .button:hover{
+      cursor: pointer;
+  }
+
+  button {
+    color: crimson;
+    background-color: white;
+    border: 1px solid #008669;
+    padding: 8px 25px;
+    border-radius: 8px;
+  }
